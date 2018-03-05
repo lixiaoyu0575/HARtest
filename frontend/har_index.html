@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        body {
+            font: 10px sans-serif;
+            margin: 50px;
+        }
+
+        .grid .tick {
+            stroke: lightgrey;
+            opacity: 0.7;
+            shape-rendering: crispEdges;
+        }
+
+        .grid path {
+            stroke-width: 0;
+        }
+
+        .axis path {
+            fill: none;
+            stroke: #bbb;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            fill: #555;
+        }
+
+        .axis line {
+            stroke: #e7e7e7;
+            shape-rendering: crispEdges;
+        }
+
+        .axis .axis-label {
+            font-size: 14px;
+        }
+
+        .line {
+            fill: none;
+            stroke-width: 1.5px;
+        }
+
+        .dot {
+            /* consider the stroke-with the mouse detect radius? */
+            stroke: transparent;
+            stroke-width: 10px;
+            cursor: pointer;
+        }
+
+        .dot:hover {
+            stroke: rgba(68, 127, 255, 0.3);
+        }
+
+        .legend {
+            font-size: 16px;
+            font-weight: bold;
+            text-anchor: middle;
+        }
+
+    </style>
+</head>
+<body>
+    <!--<label id="testsetIndex">Test Set Index: </label>-->
+    <!--<label>test</label>-->
+<script src="jquery-3.2.1.min.js"></script>
+<script src="./d3.v3.min.js"></script>
+<script src="har_main.js"></script>
+</body>
+</html>
