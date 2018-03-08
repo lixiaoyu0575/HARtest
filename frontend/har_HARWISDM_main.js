@@ -6,7 +6,7 @@ console.log('this is har_main.js');
 // }
 // str += 1152;
 // console.log(str);
-var id = 11;
+var id = 210;
 var dimensionIndex = 3;
 var ecgData = [];
 var scores = [];
@@ -34,9 +34,9 @@ var activityDict = {
     "6": "Walking"
 };
 var dimensionIndexDict = {
-    "1": "position_x",
-    "2": "position_y",
-    "3": "position_z"
+    "1": "accelerometter_x",
+    "2": "accelerometter_y",
+    "3": "accelerometter_z"
 };
 var colors = [
     'black',

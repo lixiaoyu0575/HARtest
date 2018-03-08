@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19e213e-b824-4529-b08e-e6b38236572b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/har_HARWISDM_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/har_HARWISDM_main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/TestHAR_WISDM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/checkData.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/preprocessOriData.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/har_HARWISDM_main.js" afterPath="$PROJECT_DIR$/frontend/har_HARWISDM_main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/har_main.js" afterPath="$PROJECT_DIR$/frontend/har_main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,31 +22,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="har_main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/har_main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="har_HARWISDM_index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/har_HARWISDM_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="555">
+              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="raw_1-200_HARWISDM_yval.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARWISDM_yval.csv">
+      <file leaf-file-name="har_HARWISDM_main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/har_HARWISDM_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="420">
+              <caret line="70" column="49" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="386" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="har_main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/har_main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raw_all_HARUCI_yval.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_all_HARUCI_yval.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-855">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raw_1-200_HARUCI_ypred.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARUCI_ypred.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="135" column="43" lean-forward="false" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raw_1-200_HARUCI_yval.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARUCI_yval.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="133" column="29" lean-forward="true" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -53,17 +86,17 @@
         <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARWISDM_ypred.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="50" />
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="har_HARWISDM_main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/har_HARWISDM_main.js">
+      <file leaf-file-name="har_index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/har_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-765">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="555">
+              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -79,41 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="raw_all_HARWISDM_ypred.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_all_HARWISDM_ypred.csv">
+      <file leaf-file-name="raw_all_HARWISDM_notNormalized_yval.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_all_HARWISDM_notNormalized_yval.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="1132" column="20" lean-forward="true" selection-start-line="1132" selection-start-column="0" selection-end-line="1133" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="raw_1-2000_HARWISDM_Xval.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-2000_HARWISDM_Xval.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="raw_1-2000_HARWISDM_yval.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-2000_HARWISDM_yval.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="830" column="39" lean-forward="true" selection-start-line="830" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="raw_1-2000_HARWISDM_ypred.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-2000_HARWISDM_ypred.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="830" column="6" lean-forward="true" selection-start-line="830" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="210" column="21" lean-forward="false" selection-start-line="210" selection-start-column="2" selection-end-line="210" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -130,13 +133,20 @@
       <find>ecgData</find>
       <find>data</find>
       <find>colorLinear</find>
+      <find>1-200</find>
+      <find>all</find>
+      <find>all_HARUCI</find>
       <find>colors</find>
+      <find>all_HARWISDM_notNormalized</find>
     </findStrings>
     <replaceStrings>
       <replace>raw_1-200_HARWISDM</replace>
       <replace>raw_1-2000</replace>
       <replace>raw_all</replace>
+      <replace>all_HARUCI</replace>
+      <replace>1-200</replace>
       <replace>raw_all_HARWISDM_notNormalized</replace>
+      <replace>1-200_HARUCI</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,10 +158,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/backend/TestHAR.py" />
         <option value="$PROJECT_DIR$/backend/har_utilities.py" />
-        <option value="$PROJECT_DIR$/frontend/har_main.js" />
         <option value="$PROJECT_DIR$/frontend/data/HAR/raw_1-2000_HARWISDM_yval.csv" />
         <option value="$PROJECT_DIR$/frontend/har_HARWISDM_index.html" />
         <option value="$PROJECT_DIR$/frontend/har_HARWISDM_main.js" />
+        <option value="$PROJECT_DIR$/frontend/har_main.js" />
       </list>
     </option>
   </component>
@@ -268,10 +278,10 @@
       <recent name="$PROJECT_DIR$/backend" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/frontend/data/HAR" />
       <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/frontend/data" />
-      <recent name="$PROJECT_DIR$/backend" />
     </key>
   </component>
   <component name="RunManager">
@@ -559,42 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/har_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/har_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARWISDM_final_scores_5.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARWISDM_ypred.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARWISDM_yval.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -647,10 +625,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_all_HARWISDM_notNormalized_ypred.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="210" column="21" lean-forward="false" selection-start-line="210" selection-start-column="2" selection-end-line="210" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/har_HARWISDM_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -663,10 +649,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_all_HARWISDM_notNormalized_yval.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="210" column="21" lean-forward="false" selection-start-line="210" selection-start-column="2" selection-end-line="210" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/har_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARWISDM_ypred.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARWISDM_yval.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_all_HARUCI_yval.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/har_HARWISDM_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="420">
+          <caret line="70" column="49" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="386" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARUCI_yval.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="133" column="29" lean-forward="true" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/data/HAR/raw_1-200_HARUCI_ypred.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="135" column="43" lean-forward="false" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/har_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
